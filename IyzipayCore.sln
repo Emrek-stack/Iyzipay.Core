@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyzipayCore", "src\IyzipayCore\IyzipayCore.csproj", "{D94CE766-6479-45F0-AD6C-7D1CD5F04D1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IyzipayCore", "src\IyzipayCore\IyzipayCore.csproj", "{D94CE766-6479-45F0-AD6C-7D1CD5F04D1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyzipayCore.Samples", "src\IyzipayCore.Samples\IyzipayCore.Samples.csproj", "{ED83EC7E-9836-45E8-9CDC-1652D23499CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IyzipayCore.Samples", "src\IyzipayCore.Samples\IyzipayCore.Samples.csproj", "{ED83EC7E-9836-45E8-9CDC-1652D23499CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B06B71F-5CD3-4213-A0D7-A48DB2775CC5}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		.travis.yml = .travis.yml
-		build.cmd = build.cmd
-		LICENSE = LICENSE
 		README.md = README.md
 		VERSION = VERSION
 	EndProjectSection
