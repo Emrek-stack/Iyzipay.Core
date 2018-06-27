@@ -81,12 +81,6 @@
     <Compile Include="ThreedsSample.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Iyzipay\Iyzipay.csproj">
-      <Project>{5011814a-01e4-4e5f-82fa-5282ff01da5d}</Project>
-      <Name>Iyzipay</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>
