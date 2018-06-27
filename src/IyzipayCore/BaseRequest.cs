@@ -4,8 +4,8 @@ namespace IyzipayCore
 {
     public class BaseRequest : IRequestStringConvertible
     {
-        public String Locale { get; set; }
-        public String ConversationId { get; set; }
+        public string Locale { get; set; }
+        public string ConversationId { get; set; }
 
         public virtual String ToPkiRequestString()
         {
