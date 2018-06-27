@@ -1,0 +1,16 @@
+﻿using System;
+using IyzipayCore.Request;
+
+namespace IyzipayCore.Model
+{
+    public class Bkm : PaymentResource
+    {
+        public String Token { get; set; }
+        public String CallbackUrl { get; set; }     
+
+        public static Bkm Retrieve(RetrieveBkmRequest request, Options options)
+        {
+            return RestHttpClient.Create().Post<Bkm>(options.BaseUrl + "/payment/bkm/auth/detail", GetHttpHeaders(request, options), request);
+        }
+    }
+}
