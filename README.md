@@ -8,7 +8,8 @@ You can sign up for an iyzico account at https://iyzico.com
 # Requirements
 
 .NET Framework 4.5 and later
-.netcore 2.0 and alter
+
+.netcore 2.0 and later
 
 # Installation
 
