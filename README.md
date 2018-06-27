@@ -21,7 +21,7 @@ Install-Package IyzipayCore
 ```
  Or you can download the latest .dll from:  https://github.com/EmreKarahan/Iyzipay.Core/releases/latest
  
-* Newtonsoft.Json 8.0.2 from http://www.newtonsoft.com/json#
+* Newtonsoft.Json 11.0.2 from http://www.newtonsoft.com/json#
 
 
 # Usage
