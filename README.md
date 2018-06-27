@@ -1,4 +1,4 @@
-# iyzipay-dotnet
+# iyzipay-dotnet and dotnetcore
 
 [![Build Status](https://travis-ci.org/iyzico/iyzipay-dotnet.svg?branch=master)](https://travis-ci.org/iyzico/iyzipay-dotnet)
 [![NuGet](https://img.shields.io/nuget/v/Iyzipay.svg)](https://www.nuget.org/packages/Iyzipay/)
@@ -8,6 +8,7 @@ You can sign up for an iyzico account at https://iyzico.com
 # Requirements
 
 .NET Framework 4.5 and later
+.netcore 2.0 and alter
 
 # Installation
 
@@ -15,9 +16,9 @@ For now you'll need to install following libraries:
 
 * To install Iyzipay, run the following command in the Package Manager Console
 ```
-Install-Package Iyzipay
+Install-Package IyzipayCore
 ```
- Or you can download the latest .dll from:  https://github.com/iyzico/iyzipay-dotnet/releases/latest
+ Or you can download the latest .dll from:  https://github.com/EmreKarahan/Iyzipay.Core/releases/latest
  
 * Newtonsoft.Json 8.0.2 from http://www.newtonsoft.com/json#
 
@@ -117,7 +118,7 @@ See other samples under Iyzipay.Samples project.
 
 # Testing
 
-You can run particular sample by passing your credential info to "Iyzipay.Samples/Sample.cs"
+You can run particular sample by passing your credential info to "IyzipayCore.Samples/Sample.cs"
 
 ### Mock test cards
 
